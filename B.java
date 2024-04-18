@@ -35,4 +35,8 @@ public class B implements F, C, D {
     public Object pp() {
         return this;
     }
+
+    public int cc() {
+        return 39;
+    }
 }
