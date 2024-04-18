@@ -39,4 +39,8 @@ public class B implements F, C, D {
     public int cc() {
         return 39;
     }
+
+    public int ae() {
+        return 8;
+    }
 }
