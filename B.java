@@ -47,4 +47,8 @@ public class B implements F, C, D {
     public void bb() {
         System.out.println(42);
     }
+
+    public int af() {
+        return -1;
+    }
 }
