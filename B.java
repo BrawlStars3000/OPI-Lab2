@@ -1,4 +1,4 @@
-public class B implements F, C, D {
+public class B extends null implements F, C, D {
 
     private String e = "test";
 
@@ -36,6 +36,10 @@ public class B implements F, C, D {
         return this;
     }
 
+    public void bb() {
+        System.out.println(42);
+    }
+
     public int cc() {
         return 39;
     }
@@ -44,7 +48,15 @@ public class B implements F, C, D {
         return 8;
     }
 
-    public void bb() {
-        System.out.println(42);
+    public int af() {
+        return -1;
+    }
+
+    public Object rr() {
+        return null;
+    }
+
+    public double ee() {
+        return 0.000001;
     }
 }
